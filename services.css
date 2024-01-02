@@ -140,15 +140,15 @@ body {
 
 
 
-
+/* 
 #navbar {
-    background-color: #343434;
+    background-color: #333;
     width: 100%;
-    height: 48px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     text-shadow: 3px 3px 3px black;
-}
+} */
 
 #companyname {
     /* position: fixed; */
@@ -160,11 +160,12 @@ body {
 }
 
 #navbar {
-    background-color: #343434;
+    background-color: #333;
     width: 100%;
-    height: 48px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
+    text-shadow: 3px 3px 3px black;
     /* gap: 20px; */
 
 }
@@ -173,7 +174,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 100px;
     /* border: 1px solid red; */
 }
 
@@ -227,27 +228,28 @@ body {
 
 
 .topnav {
-    flex: 1 1 0%
+    flex: 1 1 0%;
+    margin-right: 100px;
+    margin-top: 15px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: cyan;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav a:active {
     background-color: cyan;
     color: white;
 }
@@ -262,8 +264,8 @@ body {
 
 #logo {
 
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     /* margin: 5px 0 0 20px; */
     /* position: fixed; */
     /* display: flex; */
@@ -273,7 +275,7 @@ body {
 #vlogo {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 footer {
@@ -293,6 +295,7 @@ footer {
 
 footer .logo-box {
     width: fit-content;
+    margin: 0;
 }
 
 #footercontact {
@@ -304,6 +307,7 @@ footer .logo-box {
     /* border: 1PX SOLID red; */
     display: flex;
     gap: 50px;
+    font-size: 20px;
 }
 
 
@@ -315,7 +319,7 @@ footer .logo-box {
 }
 
 #footer a:hover {
-    color: whitesmoke;
+    color: cyan;
 }
 
 #line {
@@ -327,6 +331,7 @@ footer .logo-box {
     /* border: 1px solid red; */
     margin-top: 100px;
     color: gray;
+    font-size: 20px;
 }
 
 #socials {
@@ -335,6 +340,11 @@ footer .logo-box {
     width: fit-content;
     margin: auto;
     gap: 15px;
+}
+
+.logo-box a {
+    text-decoration: none;
+    color: cyan;
 }
 
 #whatsapp a,
@@ -346,7 +356,7 @@ footer .logo-box {
 #whatsapp a:hover,
 #instagram a:hover,
 #linkedin a:hover {
-    color: #ddd;
+    color: cyan;
 }
 
 @media screen and (max-width: 450px) {
@@ -354,6 +364,19 @@ footer .logo-box {
         font-size: 15px;
     }
 
+    #logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo-box {
+        margin-left: 20px;
+    }
+
+
+    #navbar {
+        height: 50px;
+    }
 
     .topnav {
             display: none;
@@ -387,7 +410,7 @@ footer .logo-box {
                     margin-top: 15px; */
             display: block;
             float: right;
-            margin: 15px 12px;
+            margin: 17px 20px;
         }
     
         .resp {
@@ -410,6 +433,11 @@ footer .logo-box {
         #footercontact {
             flex-direction: column;
             text-align: right;
+            font-size: 15px;
+        }
+
+        #copyright {
+            font-size: 15px;
         }
     
         footer .logo-box {

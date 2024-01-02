@@ -2,7 +2,6 @@ body,
 html {
     /* height: 200%; */
     margin: 0;
-    padding: 0;
     box-sizing: content-box;
     /* background-image: url(background3.jpg); */
     background-repeat: no-repeat;
@@ -99,12 +98,13 @@ font-family: 'Wix Madefor Display', sans-serif;
 }
 
 #navbar {
-    background-color: #343434;
+    background-color: #333;
     width: 100%;
-    height: 48px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     text-shadow: 3px 3px 3px black;
+    /* padding-left: 100px; */
     /* gap: 20px; */
     
 }
@@ -112,8 +112,13 @@ font-family: 'Wix Madefor Display', sans-serif;
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 100px;
     /* border: 1px solid red; */
+}
+
+.logo-box a {
+    text-decoration: none;
+    color: cyan;
 }
 
 .resp  {
@@ -167,27 +172,28 @@ font-family: 'Wix Madefor Display', sans-serif;
 
 
 .topnav {
-    flex: 1 1 0%
+    flex: 1 1 0%;
+    margin-right: 100px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: cyan;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav a:active{
     background-color: cyan;
     color: white;
 }
@@ -213,8 +219,8 @@ font-family: 'Wix Madefor Display', sans-serif;
 
 #logo {
 
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     /* margin: 5px 0 0 20px; */
     /* position: fixed; */
     /* display: flex; */
@@ -224,7 +230,7 @@ font-family: 'Wix Madefor Display', sans-serif;
 #vlogo {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 #quality {
@@ -254,12 +260,12 @@ font-family: 'Wix Madefor Display', sans-serif;
 }
 
 input[type=button] {
-    background-color: #D4AF37;
+    background-color: gray;
     width: 200px;
     padding-left: 30px;
     padding-right: 30px;
     height: 50px;
-    border: 2px solid white;
+    border: 1px solid palegoldenrod;
     border-radius: 20px;
     color: white;
     font-size: 17px;
@@ -308,7 +314,7 @@ input[type=button]:active {
 
 #moredetails  .details{
     color: white;
-    background-color: darkblue;
+    background-color: gray;
     margin-top: 10px;
 }
 
@@ -356,12 +362,13 @@ span {
 
 
 #thirdcontainer {
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
     /* height: 600px; */
     display: flex;
     padding: 100px;
     gap: 170px;
     position: relative;
+    background-color: whitesmoke;
 }
 
 /* #fourthcontainer {
@@ -450,8 +457,9 @@ span {
 #fifthcontainer {
     /* border: 1px solid red; */
     /* height: 500px; */
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
     padding: 100px;
+    background-color: whitesmoke;
 
 }
 
@@ -807,6 +815,7 @@ text-shadow: 3px 3px 3px black;
 
 footer .logo-box {
     width: fit-content;
+    margin: 0;
 }
 
 #footercontact {
@@ -818,6 +827,7 @@ footer .logo-box {
     /* border: 1PX SOLID red; */
     display: flex;
     gap: 50px;
+    font-size: 20px;
 }
 
 
@@ -829,7 +839,7 @@ footer .logo-box {
 }
 
 #footer a:hover {
-    color: whitesmoke;
+    color: cyan;
 }
 
 #line  {
@@ -841,6 +851,7 @@ footer .logo-box {
     /* border: 1px solid red; */
     margin-top: 100px;
     color: gray;
+    font-size: 20px;
 }
 
 #socials {
@@ -856,7 +867,7 @@ footer .logo-box {
 }
 
 #whatsapp a:hover, #instagram a:hover, #linkedin a:hover {
-    color: #ddd;
+    color: cyan;
 }
 
 
@@ -902,14 +913,22 @@ footer .logo-box {
         text-align: left;
     }
 
+    .logo-box {
+        margin-left: 20px;
+    }
+
     #menu {
         /* width: 30px;
         height: 30px;
         margin-top: 15px; */
         display: block;
         float: right;
-        margin: 15px 12px;
+        margin: 17px 20px;
     } 
+
+    #navbar {
+        height: 50px;
+    }
     
 
     #companyname {
@@ -1116,10 +1135,20 @@ footer .logo-box {
     #footercontact {
         flex-direction: column;
         text-align: right;
+        font-size: 15px;
     }
 
     footer .logo-box {
         height: fit-content;
+    }
+
+    #logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    #copyright {
+        font-size: 15px;
     }
 
     #working {
