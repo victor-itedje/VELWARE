@@ -54,6 +54,8 @@
     </div>
 
     <form name="myForm" action="https://formspree.io/f/xnqeaaql" method="POST">
+
+       
         <div id="container">
             <h1>Request a Quote</h1>
             <p><span>*</span>indicates required field</p>
@@ -85,11 +87,25 @@
                 </label>
             </div>
 
+                <div id="please"><p>Please select one from this field<span>*</span></p></div>
+            <div required id="checkbox">
+                <div><label for="checkbox">Personal/Private
+                    <input id="personal" name="Personal/Private" type="checkbox">
+                </label></div>
+               <div> <label for="checkbox2">Company/Organization
+                    <input id="company" name="Company/Organization" type="checkbox">
+                </label></div>
+            </div>
+
             <div id="comment">
                 <label for="comments">Project Description<span>*</span>
                     <textarea required id="comments" name="Project Description" rows="5" cols="120"
                         placeholder="Enter your Project Description here..."></textarea>
                 </label>
+            </div>
+
+            <div id="resetform">
+                <input type="reset" value="Clear Form">
             </div>
 
             <div id="submitcon">
@@ -152,6 +168,7 @@
     </footer>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/0f56aea66f.js" crossorigin="anonymous"></script>
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();

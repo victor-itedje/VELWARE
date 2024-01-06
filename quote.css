@@ -77,6 +77,34 @@ textarea {
     width: 100%;
 }
 
+#checkbox {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+#resetform {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+input[type="reset"] {
+    width: 100px;
+     border-radius: 10px; 
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#please {
+    width: fit-content;
+    font-size: small;
+    margin-top: 30px;
+}
+
 input[type=submit] {
     width: 100%;
     margin-top: 20px;
@@ -356,6 +384,10 @@ footer .logo-box {
 
     body {
         font-size: 15px;
+    }
+
+    #checkbox {
+        flex-direction: column;
     }
 
     h1 {

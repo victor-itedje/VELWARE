@@ -68,3 +68,9 @@ setInterval(function () {
   }
   goToNextImg();
 }, 7000);
+
+
+
+
+
+
