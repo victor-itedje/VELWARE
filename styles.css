@@ -306,7 +306,7 @@ input[type=button]:active {
 #build {
     /* border: 1px solid red; */
     font-size: 50px;
-    color: darkblue;
+    color: black;
     width: fit-content;
 }
 
@@ -316,7 +316,7 @@ input[type=button]:active {
     width: fit-content;
     /* border: 1px solid red; */
     font-size: 15px;
-    color: darkblue;
+    color: black;
 }
 
 #directorsname {
@@ -405,7 +405,7 @@ span {
 } */
 
 #resource {
-    color: darkblue;
+    color: black;
     font-size: 50px;
      /* border: 1px solid red;
      width: 500px; */
@@ -415,7 +415,7 @@ span {
     font-size: 14px;
     /* font-style: italic; */
     text-align: left;
-    color:  darkblue;
+    color:  black;
 }
 
 #thirdcontainerright {
@@ -472,12 +472,12 @@ span {
 
 #qualitycon {
     font-size: 50px;
-    color: darkblue;
+    color: black;
 }
 
 #qualityconpar {
     font-size: 16px;
-    color: darkblue;
+    color: black;
 }
 
 #fifthcontainer {
@@ -506,7 +506,7 @@ span {
 
 #whatwedo {
     font-size: 50px;
-    color: darkblue;
+    color: black;
 }
 
 #fifthcontainerbottomcentre {
@@ -534,8 +534,8 @@ span {
 
 
 #planningimg {
-    width: 120px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     margin: auto;
     box-shadow: 10px 10px 10px solid gray;
     /* margin-left: 70px; */
@@ -544,7 +544,7 @@ span {
 #planning {
     width: 100%;
     height: 100%;
-    border-radius: 100px;
+    /* border-radius: 100px; */
 }
 
 #projectplanning {
@@ -571,15 +571,14 @@ span {
 }
 
 #implementationcon {
-    width: 120px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     margin: auto;
 }
 
 #implementation {
     width: 100%;
     height: 100%;
-    border-radius: 100px;
 }
 
 #projectimplementaion {
@@ -607,15 +606,14 @@ span {
 }
 
 #projecttesting {
-    width: 120px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     margin: auto;
 }
 
 #testingimg {
     width: 100%;
     height: 100%;
-    border-radius: 100px;
 }
 
 #projecttestingcon {
@@ -634,15 +632,14 @@ span {
 }
 
 #deployimgcon {
-    width: 120px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     margin: auto;
 }
 
 #deployimg {
     width: 100%;
     height: 100%;
-    border-radius: 100px;
 }
 
 #fourthbottomcentre {
@@ -694,7 +691,7 @@ span {
 
 #experts {
     font-size: 50px;
-    color: darkblue;
+    color: black;
 }
 
 #sixthbottomcentre {
@@ -768,7 +765,7 @@ span {
 
 #happyclients {
     font-size: 50px;
-    color: darkblue;
+    color: black;
 }
 
 #seventhbottomcentre {
@@ -783,7 +780,7 @@ span {
 }
 
 #working {
-    color: darkblue;
+    color: black;
 }
 
 
